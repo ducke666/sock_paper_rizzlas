@@ -1,0 +1,3 @@
+let userChoice = '';
+let computerChoice = '';
+

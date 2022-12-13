@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+    .padLeft {
+        border: 1px solid purple;
+        padding: 5px;
+        width: 10%;
+        flex-shrink: 5;
+
+    }
+    .container {
+        border: 1px solid green;
+        padding: 5px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+        .introbox {
+            border: 1px solid red;
+            margin: 1px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+        }
+        .selectChar {
+            border: 1px solid red;
+            margin: 1px;
+        }
+        .charsBox {
+            border: 1px solid red;
+            margin: 1px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+            .chars {
+                height: 100px;
+                width: 100px;
+                border: 5px solid white;
+                margin: 0px 50px;
+                display: flex;
+                flex-direction: column;
+            }
+        .gameGo {
+            border: 1px solid red;
+            margin: 1px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }  
+     
+
+        
+
+
+
+
+    .padRight {
+        border: 1px solid purple;
+        padding: 5px;
+        width: 10%;
+        flex-shrink: 5;
+    }
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: white;
+}
+p {
+    text-align: center;
+    color: white;
+}
+button {
+    height: 20px;
+    width: 100px;
+}
