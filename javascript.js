@@ -12,6 +12,8 @@ let userPoints = 0;
 let computerPoints = 0;
 
 
+const 
+
 
 // Collect user choice string and store in userChoice variable 
 function getUserChoice() {
@@ -44,7 +46,7 @@ function gameBuild(userChoice, computerChoiceString) {
         console.log('game is draw');
     } else if (userChoice === 'sock' && computerChoiceString === 'rizzla') {
         console.log('user wins with sock, computer had rizzla');
-        userPoints ++;
+        userPoints ++; 
     } else if (userChoice === 'sock' && computerChoiceString === 'paper') {
         console.log('computer wins with paper, user had sock');
         computerPoints ++;
@@ -68,3 +70,9 @@ function gameBuild(userChoice, computerChoiceString) {
 }
 
 gameBuild(userChoice, computerChoiceString);
+
+
+
+
+
+
