@@ -12,14 +12,14 @@ let userPoints = 0;
 let computerPoints = 0;
 
 
-const 
+
 
 
 // Collect user choice string and store in userChoice variable 
-function getUserChoice() {
-    userChoice = (prompt("Enter either: Sock, Paper or Rizzla"))
-    userChoice = userChoice.toLowerCase();
-}
+const para = document.querySelector('p');
+
+
+
 
 // Convert the computer choice number to a string
 function convertCompChoice(computerChoiceNum) {
@@ -34,7 +34,6 @@ function convertCompChoice(computerChoiceNum) {
     };
 }
 
-getUserChoice();
 convertCompChoice(computerChoiceNum);
 console.log(`2: ${userChoice}`);
 console.log(`3: ${computerChoiceString}`);
@@ -66,12 +65,13 @@ function gameBuild(userChoice, computerChoiceString) {
     } else if (userChoice === 'rizzla' && computerChoiceString === 'sock') {
         console.log('computer wins with sock, user had rizzla');
         computerPoints ++;
-    }
+    } 
 }
 
 gameBuild(userChoice, computerChoiceString);
 
-
+console.log(computerPoints);
+console.log(userPoints);
 
 
 
